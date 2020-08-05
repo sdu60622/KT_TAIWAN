@@ -85,7 +85,7 @@ export default {
       const vm = this
       vm.isLoading = true
       this.$http.get(url).then((response) => {
-        console.log(response)
+
         vm.isLoading = false
         vm.products = response.data.products
       })
@@ -95,7 +95,7 @@ export default {
       const url = `${process.env.VUE_APP_APIPATH}/api/${process.env.VUE_APP_CUSTOMPATH}/cart`
       vm.isLoading = true
       this.$http.get(url).then((response) => {
-        console.log(response)
+
         vm.isLoading = false
         this.cartData = response.data.data.carts
         this.cartTotalPrice = response.data.data.total
@@ -106,13 +106,13 @@ export default {
       const url = `${process.env.VUE_APP_APIPATH}/api/${process.env.VUE_APP_CUSTOMPATH}/cart/${id}`
       vm.isLoading = true
       this.$http.delete(url).then((response) => {
-        console.log(response)
+
         vm.getCart()
         vm.isLoading = false
       })
     },
     handlePlus: function (item) {
-      console.log(item)
+
       item.product.num++
     },
     goto (link) {

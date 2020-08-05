@@ -87,7 +87,6 @@ export default {
         .then((result) => {
           alert('已收到您的資料,將有專人與你聯絡,謝謝')
         }, (error) => {
-          console.log('FAILED...', error)
         })
     }
   }

@@ -105,10 +105,7 @@ export default {
           this.$http.post(url, { data: order }).then((response) => {
             if (response.data.success) {
               vm.$router.push(`/orderCheck/${response.data.orderId}`)
-              console.log('訂單已建立', response)
               vm.isLoading = false
-            } else {
-              console.log('欄位不完整')
             }
           })
         }

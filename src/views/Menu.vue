@@ -118,7 +118,6 @@ export default {
       const vm = this
       vm.isLoading = true
       this.$http.get(url).then((response) => {
-        console.log(response)
         vm.isLoading = false
         vm.products = response.data.products
       })
@@ -128,7 +127,6 @@ export default {
       const url = `${process.env.VUE_APP_APIPATH}/api/${process.env.VUE_APP_CUSTOMPATH}/product/${id}`
       vm.isLoading = true
       this.$http.get(url).then((response) => {
-        console.log(response)
         vm.isLoading = false
         vm.product = response.data.product
         vm.$bvModal.show('ItemModal')
@@ -143,7 +141,6 @@ export default {
         qty
       }
       this.$http.post(url, { data: cart }).then((response) => {
-        console.log(response)
         vm.isLoading = false
         vm.getCart()
         vm.$bvModal.hide('ItemModal')
@@ -154,22 +151,9 @@ export default {
       const url = `${process.env.VUE_APP_APIPATH}/api/${process.env.VUE_APP_CUSTOMPATH}/cart`
       vm.isLoading = true
       this.$http.get(url).then((response) => {
-        console.log(response)
         vm.isLoading = false
       })
     }
-    // seeMore (id) {
-    //   const vm = this
-    //   const url = `${process.env.VUE_APP_APIPATH}/api/${process.env.VUE_APP_CUSTOMPATH}/product/${id}`
-    //   vm.id = id
-    //   vm.isLoading = true
-    //   vm.$http.get(url).then(response => {
-    //     if (response.data.success) {
-    //       vm.$router.push(`menu/${vm.id}`)
-    //     }
-    //     vm.isLoading = false
-    //   })
-    // }
   },
   created () {
     this.getProducts()

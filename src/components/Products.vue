@@ -183,7 +183,6 @@ export default {
       const vm = this
       vm.isLoading = true
       this.$http.get(api).then((response) => {
-        console.log(response.data)
         vm.isLoading = false
         vm.products = response.data.products
         vm.pagination = response.data.pagination
@@ -198,21 +197,18 @@ export default {
         httpMethod = 'put'
       }
       this.$http[httpMethod](api, { data: vm.tempProduct }).then((response) => {
-        console.log(response.data)
         if (response.data.success) {
           vm.$bvModal.hide('ProductModal')
           vm.getProducts()
         } else {
           vm.$bvModal.hide('ProductModal')
           vm.getProducts()
-          console.log('新增失敗')
         }
         // vm.products = response.data.products
       })
     },
     deleteModal (item) {
       const vm = this
-      console.log(item)
       this.tempProduct = item // 透過傳進item，可以刪除指定id
       vm.$bvModal.show('deleteproductmodal')
     },
@@ -222,7 +218,6 @@ export default {
       const httpMethpd = 'delete'
 
       this.$http[httpMethpd](api).then((response) => {
-        console.log(response.data)
         // 如果資料刪除成功 就關掉選單 並且再次取得資料
         if (response.data.success) {
           vm.$bvModal.hide('deleteproductmodal')
@@ -231,12 +226,11 @@ export default {
         } else {
           vm.$bvModal.hide('deleteproductmodal')
           vm.getProducts()
-          console.log('刪除失敗')
         }
       })
     },
     uploadFile () {
-      console.log(this)
+
       const uploadFile = this.$refs.files.files[0]
       const vm = this
       const formData = new FormData()
@@ -252,7 +246,7 @@ export default {
         vm.status.fileUploading = false
         if (response.data.success) {
           // vm.tempProduct.imageUrl = response.data.imageUrl
-          // console.log(vm.tempProduct)
+
           vm.$set(vm.tempProduct, 'imageUrl', response.data.imageUrl)
         } else {
           this.$bus.$emit('message:push', response.data.message, 'danger')
