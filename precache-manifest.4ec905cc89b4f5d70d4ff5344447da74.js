@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "alarms/uber.mp3"
   },
   {
-    "revision": "546bff08ba2ec0ebbb8e",
+    "revision": "5f56052f9575eb8d2556",
     "url": "css/app.b96a938f.css"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "css/chunk-vendors.392feca1.css"
   },
   {
-    "revision": "b50cae0518f569006097",
+    "revision": "da04cf3162d10edb9b52",
     "url": "css/settings.33eb9961.css"
   },
   {
@@ -544,20 +544,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/sp4.svg"
   },
   {
-    "revision": "6e989edea2d25b0ddee47c2751bcde34",
+    "revision": "237b92846395999e1ef0aaf462e93726",
     "url": "index.html"
   },
   {
-    "revision": "546bff08ba2ec0ebbb8e",
-    "url": "js/app.6e7e23c5.js"
+    "revision": "5f56052f9575eb8d2556",
+    "url": "js/app.13d5ff90.js"
   },
   {
     "revision": "b6bdcce3b66acb0fc813",
     "url": "js/chunk-vendors.14004f3a.js"
   },
   {
-    "revision": "b50cae0518f569006097",
-    "url": "js/settings.55e78db8.js"
+    "revision": "da04cf3162d10edb9b52",
+    "url": "js/settings.b038ebe4.js"
   },
   {
     "revision": "bd730e487578555848c9250c1f6a1396",
