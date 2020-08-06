@@ -20,7 +20,7 @@
       <div class="row mt-4">
         <div class="col-12 mt-3">
           <h2 class="mb-4" style="color:white">精選菜單 | <span style="color:#E7C46E">Menu</span></h2>
-          <div style="border:1px solid white" ></div>
+          <div style="width:100%;height:1px;background:white" ></div>
         </div>
         <div class="col-md-4 mt-4 mb-4" v-for="item in products" :key="item.id">
           <div class="card border-0 shadow-sm">

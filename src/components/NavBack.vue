@@ -14,7 +14,9 @@
 <script>
 
 export default {
+  
   components: {
+
     // Register your component
   },
   methods: {
@@ -25,7 +27,6 @@ export default {
     },
     signout () {
       const api = `${process.env.VUE_APP_APIPATH}/logout`
-      // const api = `${process.env.VUE_APP_APIPATH}/signin`
       const vm = this
       this.$http.post(api).then((response) => {
         if (response.data.success) {

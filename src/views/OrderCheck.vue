@@ -14,11 +14,11 @@
         <div class="col-12  ">
           <!-- 表格 -->
           <form class="col-12 text-center" @submit.prevent="payOrder">
-              <table class="table text-center">
+              <table class="table text-center ">
                 <thead>
-                  <th>品名</th>
-                  <th>數量</th>
-                  <th>單價</th>
+                  <th >品名</th>
+                  <th >數量</th>
+                  <th >單價</th>
                 </thead>
                 <tbody>
                   <tr v-for="item in order.products" :key="item.id">

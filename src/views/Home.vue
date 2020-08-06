@@ -19,31 +19,29 @@
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=1"></b-carousel-slide>
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=2"></b-carousel-slide>
-      <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=3"></b-carousel-slide>
+      <b-carousel-slide img-src="../../public/img/banner01.jpg"></b-carousel-slide>
+      <b-carousel-slide img-src="../../public/img/banner02.jpg"></b-carousel-slide>
+      <b-carousel-slide img-src="../../public/img/banner03.jpg"></b-carousel-slide>
     </b-carousel>
   </div>
 
   <!-- 店家特色 -->
-  <div id="about">
-  <div class="special pt-5 pb-5">
+  <div id="about" style="padding-top:10%;padding-bottom:10%">
+  <div class="special" >
     <div class="container">
-
       <div class="col-12 col-lg-12">
         <span><font-awesome-icon :icon="['fas', 'home']" class="fa-2x"></font-awesome-icon>  關於我們 | About</span>
       </div>
-
       <div class="special01 text-center">
-        <div class="col-lg-12 col-12 pt-5">
+        <div class="col-lg-12 col-12 pt-5 pb-5">
         <div><h2>品質堅持 ‧ 道道驚喜</h2></div>
         <div><h5>OUR FAMILY STYLE CUISINE</h5></div>
-        <div><p class="pt-3">KT是一家在泰國的台灣鹽酥雞店，我們店的宗旨是傳達台灣小吃文化，與泰國人分享台灣美食，品牌理念是製作出值得顧客懷念的好味道。主打商品有台灣蒜味鹽酥雞以及茶葉蛋。</p></div>
+        <div><p class="pt-3" style="font-size:1rem">KT是一家在泰國的台灣鹽酥雞店<br>我們店的宗旨是傳達台灣小吃文化<br>與泰國人分享台灣美食<br>品牌理念是製作出值得顧客懷念的好味道<br>主打商品有台灣蒜味鹽酥雞以及茶葉蛋</p></div>
         </div>
 
         <!-- 重點特色 -->
         <div class="row">
-          <div class="col-xl-3 col-lg-3 col-md-3 col-12 col-sm-12 " >
+          <div class="col-xl-3 col-lg-3 col-md-3 col-6 col-sm-6 pb-3" >
             <u-animate-container>
               <u-animate
               name="fadeInUp"
@@ -61,7 +59,7 @@
             </u-animate-container>
           </div>
 
-          <div class="col-xl-3 col-lg-3 col-md-3 col-12 col-sm-12 " >
+          <div class="col-xl-3 col-lg-3 col-md-3 col-6 col-sm-6 pb-3" >
             <u-animate-container>
               <u-animate
               name="fadeInUp"
@@ -79,7 +77,7 @@
             </u-animate-container>
           </div>
 
-          <div class="col-xl-3 col-lg-3 col-md-3 col-12 col-sm-12 " >
+          <div class="col-xl-3 col-lg-3 col-md-3 col-6 col-sm-6 pb-3" >
             <u-animate-container>
               <u-animate
               name="fadeInUp"
@@ -97,7 +95,7 @@
             </u-animate-container>
           </div>
 
-          <div class="col-xl-3 col-lg-3 col-md-3 col-12 col-sm-12 " >
+          <div class="col-xl-3 col-lg-3 col-md-3 col-6 col-sm-6 pb-3" >
             <u-animate-container>
               <u-animate
               name="fadeInUp"
@@ -124,7 +122,7 @@
 
   <!-- card輪播圖 -->
   <!-- https://www.npmjs.com/package/vue-owl-carousel -->
-  <div id="homemenu" class="col-12 pt-5 ">
+  <div id="homemenu" class="col-12 "   style="padding-top:10%;padding-bottom:10%">
 
     <div class="container">
 
@@ -215,7 +213,7 @@
   </div>
 
   <!-- 加盟 -->
-  <div id="join">
+  <div id="join" >
     <div class="container">
       <div class="col-12 col-lg-12 pt-5 pb-5">
         <span><font-awesome-icon :icon="['fas', 'flag']" class="fa-2x"></font-awesome-icon>  加盟資訊 | JOIN</span>

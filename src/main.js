@@ -10,6 +10,7 @@ import Loading from 'vue-loading-overlay'
 import 'vue-loading-overlay/dist/vue-loading.css'
 import './bus'
 import currencyFilter from './filters/currency'
+import time from './filters/time'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faBoxOpen, faStopwatch, faCog, faBell, faTimes, faPen, faCheck, faList, faPlay, faPause, faStepForward, faHome, faEllipsisH, faHeart, faStar, faFlag, faSpinner, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
@@ -56,6 +57,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.component('draggable', draggable)
 Vue.component('Loading', Loading)
 Vue.filter('currency', currencyFilter)
+Vue.filter('time', time)
 
 Vue.config.productionTip = false
 
