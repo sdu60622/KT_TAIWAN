@@ -242,7 +242,7 @@ export default {
           'Content-Type': 'multipart/form-data'
         }
       }).then((response) => {
-        console.log(response.data)
+
         vm.status.fileUploading = false
         if (response.data.success) {
           // vm.tempProduct.imageUrl = response.data.imageUrl
