@@ -28,16 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "alarms/uber.mp3"
   },
   {
-    "revision": "5f56052f9575eb8d2556",
-    "url": "css/app.b96a938f.css"
+    "revision": "37c42c17b1c290757064",
+    "url": "css/app.336279f8.css"
   },
   {
     "revision": "b6bdcce3b66acb0fc813",
     "url": "css/chunk-vendors.392feca1.css"
   },
   {
-    "revision": "da04cf3162d10edb9b52",
-    "url": "css/settings.33eb9961.css"
+    "revision": "5046f3a03b79b70f4fed",
+    "url": "css/settings.0a64591a.css"
   },
   {
     "revision": "3dc091b5135b886e4a6a177408b55294",
@@ -444,6 +444,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/banner.jpg"
   },
   {
+    "revision": "b286afaeb3200bdbbf3a31fcde2a7fa7",
+    "url": "img/banner01.b286afae.jpg"
+  },
+  {
+    "revision": "b286afaeb3200bdbbf3a31fcde2a7fa7",
+    "url": "img/banner01.jpg"
+  },
+  {
+    "revision": "1d3deb45773d5660344aa0749652b235",
+    "url": "img/banner02.1d3deb45.jpg"
+  },
+  {
+    "revision": "1d3deb45773d5660344aa0749652b235",
+    "url": "img/banner02.jpg"
+  },
+  {
+    "revision": "409e113394918fb9e8cc9f3e700bdc82",
+    "url": "img/banner03.409e1133.jpg"
+  },
+  {
+    "revision": "409e113394918fb9e8cc9f3e700bdc82",
+    "url": "img/banner03.jpg"
+  },
+  {
     "revision": "f56d7561b9c6f3cf5e9abcf3222c535f",
     "url": "img/blackbg.f56d7561.jpg"
   },
@@ -544,20 +568,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/sp4.svg"
   },
   {
-    "revision": "237b92846395999e1ef0aaf462e93726",
+    "revision": "6d400409c74051502a594c4e6ac7392a",
     "url": "index.html"
   },
   {
-    "revision": "5f56052f9575eb8d2556",
-    "url": "js/app.13d5ff90.js"
+    "revision": "37c42c17b1c290757064",
+    "url": "js/app.0db5c46e.js"
   },
   {
     "revision": "b6bdcce3b66acb0fc813",
     "url": "js/chunk-vendors.14004f3a.js"
   },
   {
-    "revision": "da04cf3162d10edb9b52",
-    "url": "js/settings.b038ebe4.js"
+    "revision": "5046f3a03b79b70f4fed",
+    "url": "js/settings.155ce1fa.js"
   },
   {
     "revision": "bd730e487578555848c9250c1f6a1396",
