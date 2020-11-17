@@ -25,15 +25,15 @@
           <div class="mt-4">
             <p style="color:white;font-size:1.5rem">品質堅持 ‧ 道道驚喜</p>
           </div>
-          <div >
-            <p style="color:white;font-size:1.2rem">嚴謹把關高品質食材提供合理的價錢讓消費者使用的安心且開心</p>
-          </div>
+          <!-- <div >
+            <p style="color:white;font-size:1.2rem">嚴謹把關高品質食材、安心油品</p>
+          </div> -->
           <div class=" mt-5" style>
             <p style="color:white;font-size:1rem">
-              全台首創使用洽富氣冷生產技術的履歷雞及嚴選優質安心油品<br>
-              從選料、設備到製程標準與韓國同步一致，<br>
-              要讓每位顧客在台灣就能感受到方便的外送文化，<br>
-              享受到原汁原味的的正宗韓式炸雞！
+              嚴謹把關高品質食材、安心油品<br>
+              從選料、設備到製程標準與台灣同步一致，<br>
+              要讓每位顧客在泰國就能感受到一吃就懷念的美味，<br>
+              享受到原汁原味的的正宗台灣鹽酥雞！
             </p>
           </div>
 
