@@ -73,11 +73,11 @@
                     <p style="font-size:1rem;text-decoration:line-through">原價NT${{product.origin_price}}</p>
                     <p style="font-size:2rem;font-family: 'Noto Sans TC', sans-serif;" >網路價NT${{product.price}}</p>
                   </div> -->
-                  <div class="col-12 p-0 mb-3">
+                  <!-- <div class="col-12 p-0 mb-3">
                     <select name="" class="form-control mb-3" v-model="product.num">
                       <option :value="num" v-for="num in 10" :key="num">選購{{num}}{{product.unit}}</option>
                     </select>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
