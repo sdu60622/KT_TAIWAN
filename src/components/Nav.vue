@@ -21,7 +21,7 @@
           <b-dropdown-item href="#">TH</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item right><span @click="goto('/login')">店家登入</span></b-nav-item>
-        <b-nav-item><a  href="#"><span @click="goto('/cart')">購物車</span></a></b-nav-item>
+        <!-- <b-nav-item><a  href="#"><span @click="goto('/cart')">購物車</span></a></b-nav-item> -->
       </b-navbar-nav>
     </b-collapse>
     
