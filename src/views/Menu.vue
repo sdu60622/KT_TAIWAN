@@ -31,21 +31,21 @@
                 <a href="#" class="text-dark">{{item.title}}</a>
               </h5>
               <p class="card-text">{{ item.content }}</p>
-              <div class="d-flex justify-content-between align-items-baseline">
+              <!-- <div class="d-flex justify-content-between align-items-baseline">
                 <div class="h5" v-if="!item.price">{{ item.origin_price }} 元</div>
                 <del class="h6" v-if="item.price">原價 {{ item.origin_price }} 元</del>
                 <div class="h5" v-if="item.price">現在只要 {{ item.price }} 元</div>
-              </div>
+              </div> -->
             </div>
             <div class="card-footer d-flex">
               <button type="button" class="btn btn-outline-secondary btn-sm" @click="getProduct(item.id)">
                 <i class="fas fa-spinner fa-spin"></i>
                 查看更多
               </button>
-              <button type="button" class="btn btn-outline-danger btn-sm ml-auto" @click="addtoCart(item.id)">
+              <!-- <button type="button" class="btn btn-outline-danger btn-sm ml-auto" @click="addtoCart(item.id)">
                 <i class="fas fa-spinner fa-spin" ></i>
                 加到購物車
-              </button>
+              </button> -->
             </div>
           </div>
         </div>
@@ -69,10 +69,10 @@
                   <p style="font-size:1.5rem;font-family: 'Noto Sans TC', sans-serif;" class="mb-3">{{product.title}}</p>
                   <p style="font-size:1rem;font-family: 'Noto Sans TC', sans-serif;" class="mb-3">{{product.description}}</p>
                   <p style="font-size:1rem;font-family: 'Noto Sans TC', sans-serif;" class="mb-3">{{product.content}}</p>
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-3 p-0">
+                  <!-- <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mb-3 p-0">
                     <p style="font-size:1rem;text-decoration:line-through">原價NT${{product.origin_price}}</p>
                     <p style="font-size:2rem;font-family: 'Noto Sans TC', sans-serif;" >網路價NT${{product.price}}</p>
-                  </div>
+                  </div> -->
                   <div class="col-12 p-0 mb-3">
                     <select name="" class="form-control mb-3" v-model="product.num">
                       <option :value="num" v-for="num in 10" :key="num">選購{{num}}{{product.unit}}</option>
@@ -82,10 +82,10 @@
               </div>
             </div>
           </div>
-          <div class="modal-footer ">
+          <!-- <div class="modal-footer ">
             <div class="text-muted text-nowrap mr-3">小計 <strong>{{product.num*product.price}}</strong></div>
             <button type="button" class="btn btn-secondary" data-dismiss="modal" @click="addtoCart(product.id,product.num)">加入購物車</button>
-          </div>
+          </div> -->
         </b-modal>
     </div>
   <!-- Modal截止 -->
